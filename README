@@ -15,7 +15,7 @@ and copy runtempcontrol.sh script to 	/usr/local/bin
 
 Finally, add the following line to /etc/rc.local:
 
-	/usr/bin/runtempcontrol.sh&
+	/usr/bin/local/runtempcontrol.sh&
 
 This will start the tempcontrol executable and restart if if it terminates
 prematurely.
