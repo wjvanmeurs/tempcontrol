@@ -3,7 +3,7 @@ Wil van Meurs
 
 
 This directory contains the files needed to control the CPU temperature of the 
-RaspberryPi 4B using the smart the Smart Cooling Hat (DF-DFR0672).
+RaspberryPi 4B using the Smart Cooling Hat (DF-DFR0672).
 
 To build the executable run the following command:
 
@@ -17,5 +17,5 @@ Finally, add the following line to /etc/rc.local:
 
 	/usr/bin/local/runtempcontrol.sh&
 
-This will start the tempcontrol executable and restart if if it terminates
+This will start the tempcontrol executable and restart it when it terminates
 prematurely.
